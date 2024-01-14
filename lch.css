@@ -1,0 +1,101 @@
+/* Set the font and margin for the entire document body */
+body {font-family:Arial, Helvetica, sans-serif;
+      margin:20px;
+     }
+/*Style the navigation bar */
+nav { width: 100%;
+      background-color: wheat;
+      text-align: right;
+    }
+/*Style the links in the navigation bar */
+a { text-decoration: none;
+   color: #0074d9; 
+   font-weight: bold;
+   padding-right: 20px;
+  }
+/*Style the footer */
+footer {width: 100%;
+        background-color: wheat;
+       }
+/*Apply margin to all div elements */
+div {
+        margin: 20px;
+        }
+/*Define a container for the wholeview class with flex properties */
+.wholeview{ display: flex;
+            align-items:center;
+            justify-content: center;
+            margin: 20px;
+          }
+/*Style a container for images*/
+.pic {flex: 1; 
+      text-align: center; 
+     }
+/*Style the image with specific properties*/
+#picture{width: 40%;  
+        padding: 10px; 
+        flex: 1;
+        max-width: 100%; 
+        border-radius: 50%;   
+        }
+/*Style the paragraph section*/
+.para { flex: 2; 
+        padding: 20px;
+        }
+/*Style links within the paragraph*/
+.para a {text-decoration: none;
+        color: #0074d9; 
+        font-weight: bold;
+        }
+/*Define a container for information items*/
+.info { display:flex;       
+        }
+/* Style individual information items*/
+.info-item {border: #000;
+            text-align: left;
+            display: flex;
+            column-gap: 5px;
+            background-color: beige;            
+            }
+/*Style inner items within the information items*/
+.inner-item { text-align: start;
+            }
+/*Style r1 class for resume*/
+.r1 {background-color: silver;
+    border-color: #000;
+    }
+/*Style a project section with flex properties*/
+#proj {display:flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+/*Styl an image within the project section*/
+#image{width:60%;
+       align-self: center;
+       }
+/*Style a button section with margin and flex properties*/
+#button {margin: 30px;
+        display:flex;
+        justify-content: center;
+        }
+/*Style the buttons with background and font properties*/
+#clickme,#clickagain {background-color: wheat;
+                     font-family: Verdana, Geneva, Tahoma, sans-serif;
+                     margin:10px;
+                      }
+/*Define a responsive design for the entire webpages */
+@media (max-width: 768px) {
+        main {
+                flex-direction: column;
+                }
+        nav,footer {
+                    flex-basis: 100%;
+                    margin:0;
+                   }
+            }
+      
+     
+      
+      
+     
+      

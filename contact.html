@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content = "Chunhua Li">
+        <meta name = "description" content = "contact page of Chunhua's webpage">
+        <meta name = "keywords" content = "form get post">
+        <link rel="stylesheet" type="text/css" href="lch.css">
+        <title>contact Chunhua </title>
+    </head>
+<!--The name of this page is contact page of Chunhua's webpage-->
+<!--This page is created by Chunhua Li-->
+<!--This page displays contact of Chunhua Li-->
+    <body>
+        <header>           
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>        
+            </nav>
+            <h1>Contact me </h1>   
+        </header>
+        <main>
+          <form action ="process.php" method ="post" enctype ="text/plain">
+            <div>
+                <label for="name">Name</label> 
+                <input id="name" type="text" name="name">
+            </div>
+            <div>
+                <label for="email">Email Address</label> 
+                <input id="email" type="email" name="email">
+            </div>
+            <div>
+                <label for="message">Message</label>
+            </div>   
+            <div>
+                <textarea id="message" name="message" cols="100" rows="8" placeholder="Please leave your message here"></textarea>
+            </div>
+          </form>
+       </main>
+        <div>
+            <footer>Chunhua Li, 2023 Copyright</footer>
+        </div>        
+    </body>
+</html>
